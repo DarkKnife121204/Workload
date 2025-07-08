@@ -1,22 +1,36 @@
 {
   "employees": [
     {"id": 1, "name": "Иванов И.И."},
-    {"id": 2, "name": "Петров П.П."}
+    {"id": 2, "name": "Петров П.П."},
+    {"id": 3, "name": "Сергеев С.С."},
+    {"id": 4, "name": "Васильевич В.В."},
+    {"id": 5, "name": "Андреев А.А."}
   ],
   "projects": [
     {"id": 10, "name": "Проект А"},
-    {"id": 11, "name": "Проект Б"}
+    {"id": 11, "name": "Проект Б"},
+    {"id": 12, "name": "Проект В"},
+    {"id": 13, "name": "Проект Г"},
+    {"id": 14, "name": "Проект Д"},
+    {"id": 15, "name": "Проект Е"}
   ],
   "assignments": [
-    {"employee_id": 1, "project_id": 10, "start_date": "2025-06-01", "end_date": "2025-06-15"},
+    {"employee_id": 1, "project_id": 10, "start_date": "2025-06-04", "end_date": "2025-06-15"},
     {"employee_id": 1, "project_id": 11, "start_date": "2025-06-16", "end_date": "2025-06-30"},
-    {"employee_id": 2, "project_id": 11, "start_date": "2025-06-01", "end_date": "2025-06-30"}
+    {"employee_id": 2, "project_id": 11, "start_date": "2025-06-01", "end_date": "2025-06-30"},
+    {"employee_id": 3, "project_id": 12, "start_date": "2025-06-09", "end_date": "2025-06-21"},
+    {"employee_id": 4, "project_id": 13, "start_date": "2025-06-03", "end_date": "2025-06-22"},
+    {"employee_id": 5, "project_id": 14, "start_date": "2025-06-02", "end_date": "2025-06-25"},
+    {"employee_id": 5, "project_id": 15, "start_date": "2025-06-01", "end_date": "2025-06-11"}
   ],
   "vacations": [
-    {"employee_id": 1, "start_date": "2025-06-10", "end_date": "2025-06-12"}
+    {"employee_id": 1, "start_date": "2025-06-10", "end_date": "2025-06-12"},
+    {"employee_id": 3, "start_date": "2025-06-01", "end_date": "2025-06-11"}
   ],
   "overtimes": [
     {"employee_id": 1, "date": "2025-06-08"},
-    {"employee_id": 2, "date": "2025-06-15"}
+    {"employee_id": 2, "date": "2025-06-15"},
+    {"employee_id": 5, "date": "2025-06-10"},
+    {"employee_id": 3, "date": "2025-06-14"}
   ]
 }
