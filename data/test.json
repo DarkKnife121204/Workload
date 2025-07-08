@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {"id": 1, "name": "Иванов И.И."},
+    {"id": 2, "name": "Петров П.П."}
+  ],
+  "projects": [
+    {"id": 10, "name": "Проект А"},
+    {"id": 11, "name": "Проект Б"}
+  ],
+  "assignments": [
+    {"employee_id": 1, "project_id": 10, "start_date": "2025-06-01", "end_date": "2025-06-15"},
+    {"employee_id": 1, "project_id": 11, "start_date": "2025-06-16", "end_date": "2025-06-30"},
+    {"employee_id": 2, "project_id": 11, "start_date": "2025-06-01", "end_date": "2025-06-30"}
+  ],
+  "vacations": [
+    {"employee_id": 1, "start_date": "2025-06-10", "end_date": "2025-06-12"}
+  ],
+  "overtimes": [
+    {"employee_id": 1, "date": "2025-06-08"},
+    {"employee_id": 2, "date": "2025-06-15"}
+  ]
+}
