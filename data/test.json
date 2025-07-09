@@ -21,7 +21,8 @@
     {"employee_id": 3, "project_id": 12, "start_date": "2025-06-09", "end_date": "2025-06-21"},
     {"employee_id": 4, "project_id": 13, "start_date": "2025-06-03", "end_date": "2025-06-22"},
     {"employee_id": 5, "project_id": 14, "start_date": "2025-06-02", "end_date": "2025-06-25"},
-    {"employee_id": 5, "project_id": 15, "start_date": "2025-06-01", "end_date": "2025-06-11"}
+    {"employee_id": 5, "project_id": 15, "start_date": "2025-06-01", "end_date": "2025-06-11"},
+    {"employee_id": 5, "project_id": 11, "start_date": "2025-06-15", "end_date": "2025-06-20"}
   ],
   "vacations": [
     {"employee_id": 1, "start_date": "2025-06-10", "end_date": "2025-06-12"},
@@ -30,7 +31,7 @@
   "overtimes": [
     {"employee_id": 1, "date": "2025-06-08"},
     {"employee_id": 2, "date": "2025-06-15"},
-    {"employee_id": 5, "date": "2025-06-10"},
+    {"employee_id": 5, "date": "2025-06-08"},
     {"employee_id": 3, "date": "2025-06-14"}
   ]
 }
