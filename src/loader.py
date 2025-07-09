@@ -1,32 +1,14 @@
 import json
-import csv
-from pathlib import Path
 
-
-# json
-def load_json(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
-
-
-# csv
-def load_csv(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = list(csv.DictReader(f))
-    return data
 
 # загрузка
 def load_file(file_path):
-    ext = Path(file_path).suffix.lower()
-    if ext == ".json":
-        return load_json(file_path)
-    elif ext == ".csv":
-        return load_csv(file_path)
-    else:
-        raise ValueError("Формат файла не поддерживается")
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return extract_events(data)
 
 
+# структура из json
 def extract_events(data):
     employee_map = {e["id"]: e["name"] for e in data["employees"]}
     project_map = {p["id"]: p["name"] for p in data["projects"]}

@@ -1,4 +1,5 @@
 pandas
 plotly
 datetime
+kaleido
 dash
